@@ -68,7 +68,7 @@
         SOURCE_URL,
         LOVE,
         isShowImgMask: false,
-        maskImgSrc: '/static/imgs/21325ILOVEU.jpg',
+        maskImgSrc: '/mlyy/imgs/21325ILOVEU.jpg',
       }
     },
     methods: {

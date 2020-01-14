@@ -12,8 +12,8 @@ import createHearts from './assets/js/createHearts'
 
 Vue.use( VueLazyload, {
   preLoad: 1.3,
-  error: '/imgs/error.jpg',
-  loading: '/imgs/loading.gif',
+  error: '/mlyy/imgs/error.jpg',
+  loading: '/mlyy/imgs/loading.gif',
   attempt: 1
 } )
 
