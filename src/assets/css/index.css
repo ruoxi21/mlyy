@@ -1,0 +1,141 @@
+audio.medias {
+  height: 32px;
+  outline: none;
+}
+
+.h-section__section .article {
+  margin: 0 20%;
+}
+
+
+@media screen and (max-width: 720px) {
+  .h-section__section .article {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+
+  .back-to-top {
+    display: none !important;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) {
+  /* 兼容iphoneX/XS */
+  .h-section__section .article {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .ruoxi-video {
+    width: 100%;
+  }
+  .mask_img {
+    width: 100vw;
+  }
+
+  .back-to-top {
+    display: none !important;
+  }
+}
+@media only screen and (device-width: 414px) and (device-height:896px) and (-webkit-device-pixel-ratio:3) {
+  /* 兼容iphone XS Max */
+  .h-section__section .article {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .ruoxi-video {
+    width: 100%;
+  }
+  .mask_img {
+    width: 100vw;
+  }
+
+  .back-to-top {
+    display: none !important;
+  }
+}
+@media only screen and (device-width: 414px) and (device-height:896px) and (-webkit-device-pixel-ratio:2) {
+  /* 兼容iphone XR */
+  .h-section__section .article {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .ruoxi-video {
+    width: 100%;
+  }
+  .mask_img {
+    width: 100vw;
+  }
+
+  .back-to-top {
+    display: none !important;
+  }
+}
+
+@media (device-height: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* 兼容iphoneX */
+  .h-section__section .article {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .ruoxi-video {
+    width: 100%;
+  }
+  .mask_img {
+    width: 100vw;
+  }
+
+  .back-to-top {
+    display: none !important;
+  }
+}
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* 兼容iphone5 */
+  .h-section__section .article {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+
+  .back-to-top {
+    display: none !important;
+  }
+  .ruoxi-video {
+    width: 100%;
+  }
+  .mask_img {
+    width: 100vw;
+  }
+}
+@media (device-height: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* 兼容iphone6 */
+  .h-section__section .article {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+
+  .back-to-top {
+    display: none !important;
+  }
+  .ruoxi-video {
+    width: 100%;
+  }
+  .mask_img {
+    width: 100vw;
+  }
+}
+@media (device-height: 736px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* 兼容iphone6 Plus */
+  .h-section__section .article {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+
+  .back-to-top {
+    display: none !important;
+  }
+  .ruoxi-video {
+    width: 100%;
+  }
+  .mask_img {
+    width: 100vw;
+  }
+}
