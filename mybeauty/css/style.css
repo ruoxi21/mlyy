@@ -24,13 +24,13 @@ body{
 ul, ol, li{
 	list-style: none;
 }
-.bg {
+/* .bg {
 	width: 100%;
 	height: 100%;
 	background-position: fixed;
 	background-size: cover;
-	background: url(../img/想和你把能发生的关系都发生一遍.jpg) no-repeat center;
-}
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/想和你把能发生的关系都发生一遍.jpg) no-repeat center;
+} */
 .box{
 	width: 200px;
 	height: 200px;
@@ -65,62 +65,62 @@ ul, ol, li{
 	top: 0;
 }
 .minbox li:nth-child(1){
-	background: url(../img/01.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/01.jpg) no-repeat 0 0;
 	-webkit-transform: translateZ(50px);
 	transform: translateZ(50px);
 }
 .minbox li:nth-child(2){
-	background: url(../img/02.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/02.jpg) no-repeat 0 0;
 	-webkit-transform: rotateX(180deg) translateZ(50px);
 	transform: rotateX(180deg) translateZ(50px);
 }
 .minbox li:nth-child(3){
-	background: url(../img/03.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/03.jpg) no-repeat 0 0;
 	-webkit-transform: rotateX(-90deg) translateZ(50px);
 	transform: rotateX(-90deg) translateZ(50px);
 }
 .minbox li:nth-child(4){
-	background: url(../img/04.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/04.jpg) no-repeat 0 0;
 	-webkit-transform: rotateX(90deg) translateZ(50px);
 	transform: rotateX(90deg) translateZ(50px);
 }
 .minbox li:nth-child(5){
-	background: url(../img/05.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/05.jpg) no-repeat 0 0;
 	-webkit-transform: rotateY(-90deg) translateZ(50px);
 	transform: rotateY(-90deg) translateZ(50px);
 }
 .minbox li:nth-child(6){
-	background: url(../img/06.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/06.jpg) no-repeat 0 0;
 	-webkit-transform: rotateY(90deg) translateZ(50px);
 	transform: rotateY(90deg) translateZ(50px);
 }
 .maxbox li:nth-child(1){
-	background: url(../img/1.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/1.jpg) no-repeat 0 0;
 	-webkit-transform: translateZ(50px);
 	transform: translateZ(50px);
 }
 .maxbox li:nth-child(2){
-	background: url(../img/2.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/2.jpg) no-repeat 0 0;
 	-webkit-transform: translateZ(50px);
 	transform: translateZ(50px);
 }
 .maxbox li:nth-child(3){
-	background: url(../img/3.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/3.jpg) no-repeat 0 0;
 	-webkit-transform: rotateX(-90deg) translateZ(50px);
 	transform: rotateX(-90deg) translateZ(50px);
 }
 .maxbox li:nth-child(4){
-	background: url(../img/4.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/4.jpg) no-repeat 0 0;
 	-webkit-transform:rotateX(90deg) translateZ(50px);
 	transform:rotateX(90deg) translateZ(50px);
 }
 .maxbox li:nth-child(5){
-	background: url(../img/5.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/5.jpg) no-repeat 0 0;
 	-webkit-transform:rotateY(-90deg) translateZ(50px);
 	transform:rotateY(-90deg) translateZ(50px);
 }
 .maxbox li:nth-child(6){
-	background: url(../img/6.jpg) no-repeat 0 0;
+	background: url(https://ruoxi21.oss-cn-beijing.aliyuncs.com/ruoxi21/sc/mybeauty/img/6.jpg) no-repeat 0 0;
 	-webkit-transform: rotateY(90deg) translateZ(50px);
 	transform: rotateY(90deg) translateZ(50px);
 }
