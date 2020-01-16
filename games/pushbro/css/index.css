@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #eee;
+  height: 100%;
+}
+.select {
+  width: 100%;
+  padding-top: 21px;
+  text-align: center;
+  text-align-last: center;
+}
+.select select {
+  width: 213px;
+  height: 30px;
+  padding: 3px;
+  line-height: 23px;
+  color: #b45dea;
+  font-size: 16px;
+  text-align: center;
+  text-align-last: center;
+  border: 1px solid;
+}
+
+.box {
+  overflow: hidden;
+  margin: 15vh auto 0;
+  height: 480px;
+  width: 480px;
+}
+
+.box div {
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+
+.type1 {
+  /*要推的地方*/
+  opacity: 0.5;
+}
+.type1,
+.type2 {
+  background-color: #3266cc;
+}
+.type3 {
+  /*墙*/
+  background-color: rgba(7, 17, 27, 0.8);
+}
+.type4 {
+  /*箱子*/
+  box-sizing: border-box;
+  border: 1px solid rgba(7, 17, 27, 0.5);
+  background-color: #b45dea;
+}
+.pusher {
+  /*皮卡丘*/
+  width: 40px;
+  height: 40px;
+  background: url("../img/bro.png") #3266cc;
+  background-size: cover;
+}
