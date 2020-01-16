@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link type="text/css" href="./css/style.css" rel="stylesheet" />
+  <title> (゜-゜)つロ </title>
+</head>
+
+<body>
+  <div class="bg">
+    <div class="box">
+      <ul class="minbox">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <ol class="maxbox">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState == 'hidden') {
+        normal_title = document.title;
+        document.title = '我这么美,再看看我嘛! (゜-゜)つロ ~';
+      } else {
+        document.title = normal_title;
+      }
+    });
+  </script>
+</body>
+
+</html>
