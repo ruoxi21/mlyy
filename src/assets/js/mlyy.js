@@ -1,9 +1,11 @@
 /* eslint-disable no-console */
 
 window.onload = function() {
+  /************ '音视频互斥 只能播放一个' by chengxiang ************/
+  
   // 获取 audio 和 video
   const medias = document.getElementsByClassName("medias");
-
+  
   // 给 play 事件绑定暂停函数
   [].forEach.call(medias, function(i) {
     i.addEventListener("play", pauseAll.bind(i));
@@ -18,6 +20,8 @@ window.onload = function() {
     });
   }
 
+  /************ '音视频互斥 只能播放一个' by chengxiang ************/
+  
   // 吸顶
   const youlovebgHeight = document.getElementsByClassName("h-section__header")[0]
     .offsetHeight;

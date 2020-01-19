@@ -34,12 +34,12 @@
     color: #fff;
   }
   .marryyou {
-    background: url(../../../assets/imgs/marryyou-wx201909251649.jpg) no-repeat center;
+    background: url(http://q45sz7cpm.bkt.clouddn.com//post/img/marryyou-wx201909251649.jpg) no-repeat center;
     background-size: cover; /* 需放在background:url() 下方, 放上方无效 先有图才能设置大小?,,,*/
     left: 21px;
   }
   .marryme {
-    background: url(../../../assets/imgs/marryme-wx201909251649.jpg) no-repeat center;
+    background: url(http://q45sz7cpm.bkt.clouddn.com//post/img/marryme-wx201909251649.jpg) no-repeat center;
     background-size: cover;
     right: 21px;
   }

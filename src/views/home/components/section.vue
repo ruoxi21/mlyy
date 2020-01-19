@@ -1,7 +1,11 @@
 <template>
   <div class='h-section'>
     <header class="h-section__header"></header>
-    <p class="h-section__title">#伴着你的精神食粮#</p>
+    <p class="h-section__title">#伴着你的精神食粮</p>
+
+    <div class="h-section__hearts">
+      <xy-hearts />
+    </div>
 
     <section class="h-section__section">
       <div class="article"
@@ -16,7 +20,6 @@
                v-if="c.type === 'text'"
                v-html="c.text"></div>
           <!-- 图片 -->
-          <!-- /************ TODO ':src="c.sc" 懒加载v-lazy 依赖安装' by chengxiang *************/ -->
           <img v-if="c.type === 'img'"
                @click="showImgMask"
                v-lazy="SOURCE_URL + c.src"
@@ -25,8 +28,8 @@
                title="21325">
           <!-- 音频 -->
           <audio class="medias ruoxi-audio"
-                 :src="SOURCE_URL + c.src" 
                  v-if="c.type === 'audio'" 
+                 :src="SOURCE_URL + c.src" 
                  type='audio/mp3'
                  :autoplay='c.autoplay'
                  controls
@@ -34,8 +37,8 @@
                  width='213'></audio>
           <!-- 视频 -->
           <video class="medias ruoxi-video"
-                 :src="SOURCE_URL + c.src"
                  v-if="c.type === 'video'" 
+                 :src="SOURCE_URL + c.src"
                  controls
                  preload="none"
                  width="325"></video>
@@ -59,16 +62,17 @@
 
 <script>
   import { LOVE, SOURCE_URL } from 'consts/love'
-  import imgMask from '../../../components/img-mask'
+  import imgMask from 'components/img-mask'
+  import xyHearts from 'components/xy-hearts.vue'
   export default {
     name: 'h-section',
-    components: { imgMask },
+    components: { imgMask, xyHearts },
     data() {
       return {
         SOURCE_URL,
         LOVE,
         isShowImgMask: false,
-        maskImgSrc: '/mlyy/imgs/21325ILOVEU.jpg',
+        maskImgSrc: '/imgs/21325ILOVEU.jpg',
       }
     },
     methods: {
@@ -89,16 +93,20 @@
     width: 100%;
     height: 325px;
     text-align: center;
-    background-image: url(../../../assets/imgs/心动到古稀.jpg);
+    background-image: url(http://q45sz7cpm.bkt.clouddn.com//post/img/想和你把能发生的关系都发生一遍.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   &__title {
+    margin: 5px 0;
     text-align: center;
     font-size: 15px;
     font-weight: 400;
     color: #5d686f;
+  }
+  &__hearts {
+    cursor: pointer;
   }
   &__section {
     padding: 21px;

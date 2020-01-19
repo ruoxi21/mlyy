@@ -1,4 +1,4 @@
-export const SOURCE_URL = 'https://ruoxi21.github.io'
+export const SOURCE_URL = 'http://q45sz7cpm.bkt.clouddn.com/'
 
 export const LOVE = [
   {

@@ -6,14 +6,15 @@ function resolve(dir){
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/mlyy/'
-    : '/',
+    ? '/'
+    : './',
   configureWebpack: {
     resolve: {
       extensions: ['.js', '.vue', '.json'],
       // 别名
       alias: {
         '@': resolve('src'),
+        components: resolve('src/components'),
         views: resolve('src/views'),
         utils: resolve('src/utils'),
         consts: resolve('src/consts')

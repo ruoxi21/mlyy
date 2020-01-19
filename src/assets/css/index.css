@@ -1,3 +1,9 @@
+/************ 'reset.css' by chengxiang *************/
+p {
+  margin: 0;
+  padding: 0;
+}
+
 audio.medias {
   height: 32px;
   outline: none;
